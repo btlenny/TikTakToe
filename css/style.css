@@ -1,0 +1,22 @@
+body {
+  background-color: blue;
+}
+.h1 {
+    text-align: center; 
+}
+
+.board {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
+
+  }
+  
+.cell {
+    padding: 10px;
+    background-color: #ccc;
+    aspect-ratio: 1;
+    place-items: center;
+  }
+ 

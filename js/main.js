@@ -1,9 +1,40 @@
 // 1) Define required constants:
-//   1.1) Define a colors object with keys of 'null' (when the square is empty), and players 1 & -1. The value assigned to each key represents the color to display for an empty square (null), player 1 and player -1.
-//   1.2) Define the 8 possible winning combinations, each containing three indexes of the board that make a winner if they hold the same player value.
+//   1.1) Define a colors object with keys of 'null' (when the square is empty), 
+// and players 1 & -1. The value assigned to each key represents the color to display 
+// for an empty square (null), player 1 and player -1.
+
+console. log("Hello, World!");
+
+// // Calling function
+// sayHello();
+// const colors = {
+//   null: 'white',    // Color for an empty square
+//   1 : 'red',         // Color for player 1
+//   '-1': 'blue'      // Color for player -1
+// };
+
+
+
+
+// //   1.2) Define the 8 possible winning combinations, each containing three indexes 
+// // of the board that make a winner if they hold the same player value.
+// const winningCombinations = [
+// [0, 1, 2], // Top row
+// [3, 4, 5], // Middle row
+// [6, 7, 8], // Bottom row
+// [0, 3, 6], // Left column
+// [1, 4, 7], // Middle column
+// [2, 5, 8], // Right column
+// [0, 4, 8], // Diagonal from top-left to bottom-right
+// [2, 4, 6]  // Diagonal from top-right to bottom-left
+// ];
+
+
 
 // 2) Define required variables used to track the state of the game:
 //   2.1) Use a board array to represent the squares.
+
+
 //   2.2) Use a turn variable to remember whose turn it is.
 //   2.3) Use a winner variable to represent three different possibilities - player that won, a tie, or game in play.
 
@@ -42,7 +73,7 @@
 //   5.7) If there's no winner, check if there's a tie:
 //     5.7.1) Set winner to 'T' if there are no more nulls in the board array.
 //   5.8) All state has been updated, so render the state to the page (step 4.2).
-		
+  
 
 // 6) Handle a player clicking the replay button:
 //   6.1) Do steps 4.1 (initialize the state variables) and 4.2 (render).
