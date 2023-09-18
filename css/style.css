@@ -10,7 +10,7 @@ body {
     display: grid;
     gap: 1px;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 200px;
+    max-width: 600px;
     
 
   }
