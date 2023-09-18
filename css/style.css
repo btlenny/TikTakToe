@@ -1,5 +1,6 @@
 body {
-  background-color: blue;
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .h1 {
     text-align: center; 
@@ -9,7 +10,8 @@ body {
     display: grid;
     gap: 1px;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 600px;
+    max-width: 200px;
+    
 
   }
   
